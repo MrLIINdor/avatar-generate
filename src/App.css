@@ -1,0 +1,49 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-avatar {
+  height: 50rem;
+  width: 50rem;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8%;
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  gap: 1.8rem;
+  margin: 3rem;
+}
+
+.avatar {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.avatar > svg {
+  width: 75%;
+  height: 75%;
+}
+
+.btn {
+  padding: 0.3rem;
+  text-decoration: none;
+  font-family: "Montserrat";
+  border: none;
+  border-radius: 10px;
+  background-color: #297477;
+  color: var(--white);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+}

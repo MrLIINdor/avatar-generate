@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --white: #ffffff;
+  --black: #171717;
+  --green: #8aab91;
+  --grey: #363636;
+}
+
+/* html,
+body {
+  width: 100vw;
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
